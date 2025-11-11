@@ -9,7 +9,8 @@
         "--share=ipc",
         "--socket=wayland",
         "--socket=fallback-x11",
-        "--device=dri"
+        "--device=dri",
+        "--talk-name=org.freedesktop.secrets"
     ],
     "modules" : [
         {
@@ -20,7 +21,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/vmkspv/lenspect.git",
-                    "tag" : "v1.0.1"
+                    "tag" : "v1.0.2"
                 }
             ]
         }
