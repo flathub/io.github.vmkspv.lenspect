@@ -1,7 +1,7 @@
 {
     "id" : "io.github.vmkspv.lenspect",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "command" : "lenspect",
     "finish-args" : [
@@ -20,7 +20,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/vmkspv/lenspect.git",
-                    "tag" : "v1.0.4"
+                    "tag" : "v1.0.5",
+                    "commit" : "26ef4d2af1e3fb5abdf3cf99b5d7266e2399b6dc"
                 }
             ]
         }
